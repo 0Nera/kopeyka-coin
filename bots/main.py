@@ -1,0 +1,1 @@
+from .miner_bot import miner_bot
