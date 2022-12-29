@@ -7,8 +7,6 @@ import json
 import signal
 import logging
 from blockchain.blockchain import get_blocks_count, get_last_block
-from blockchain.user import get_user
-
 
 def handle_connection(sock, addr, pid):
     data = sock.recv(1024)
